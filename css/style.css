@@ -1,7 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f8f8f8;
+}
 header, nav, footer, article {display: block;}
-nav {float: left; width: 20%; background-color: rgb(144, 159, 228);}
-article {float: right; width: 79%; background-color: tan;}
-footer {clear: both; background-color: forestgreen;}
-header {align-items: center; background-color: rgb(191, 214, 191);}
+nav {
+    float: left; 
+    width: 20%;
+}
+article {
+    float: right; 
+    width: 80%;
+}
+footer {clear: both;}
+hgroup > h1 {
+    text-align: center; 
+    font-size: large;
+}
+hgroup > h2 {
+    text-align: center; 
+    font-size: medium; 
+    font-style: italic;
+}
+.mario {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: auto;
+}
+.checkbox_container {display: block;}
 
-img.mario {display: block; margin-left: auto; margin-right: auto;}
+.container {
+    min-width: 320px;
+    max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+  
+table td, table th {
+    padding: 10px;
+    border: 1px solid #cbbdbd;
+}
+  
+tr:nth-child(even){
+      background-color: #f0f4c3
+}
+  
+  
+@media (max-width: 720px) {
+
+    .container table thead {
+      display: none;
+    }
+  
+    .container table tr {
+      display: block;
+    }
+  
+    .container table td {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+  
+    .container table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      margin-right: 20px;
+    }
+  
+}
