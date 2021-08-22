@@ -3,14 +3,6 @@ body {
     background-color: #f8f8f8;
 }
 header, nav, footer, article {display: block;}
-nav {
-    float: left; 
-    width: 20%;
-}
-article {
-    float: right; 
-    width: 80%;
-}
 footer {clear: both;}
 hgroup > h1 {
     text-align: center; 
@@ -48,7 +40,7 @@ table td, table th {
 }
   
 tr:nth-child(even){
-      background-color: #f0f4c3
+      background-color: lemonchiffon;
 }
   
   
