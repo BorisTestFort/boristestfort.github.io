@@ -1,0 +1,7 @@
+header, nav, footer, article {display: block;}
+nav {float: left; width: 20%; background-color: rgb(144, 159, 228);}
+article {float: right; width: 79%; background-color: tan;}
+footer {clear: both; background-color: forestgreen;}
+header {align-items: center; background-color: rgb(191, 214, 191);}
+
+img.mario {display: block; margin-left: auto; margin-right: auto;}
